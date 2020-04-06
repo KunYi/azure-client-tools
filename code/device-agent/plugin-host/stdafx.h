@@ -15,6 +15,9 @@
 #include <stdlib.h>
 #include <windows.h>
 #include <stdbool.h>
+
+#define _SILENCE_EXPERIMENTAL_FILESYSTEM_DEPRECATION_WARNING
+
 #include <filesystem>
 #include <regex>
 #include <atomic>

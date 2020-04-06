@@ -31,12 +31,12 @@
     <ProjectGuid>{3FCA32AD-5775-4EEE-8F6C-2A51B952DF7B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>DMBridge</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <!-- Common -->
   <PropertyGroup>
     <ConfigurationType>StaticLibrary</ConfigurationType>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
     <GenerateManifest>true</GenerateManifest>
     <WindowsSDKDesktopARMSupport>true</WindowsSDKDesktopARMSupport>

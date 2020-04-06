@@ -7,7 +7,7 @@ goto START
 
 :Usage
 echo Usage: build.wdp.layout.cmd folder
-echo    WinSDKVer............... Default is 10.0.14393.0, specify another version if necessary
+echo    WinSDKVer............... Default is 10.0.17763.0, specify another version if necessary
 echo    [/?].................... Displays this usage string.
 echo    Example:
 echo        build.wdp.layout.cmd c:\wdp.layout
@@ -50,6 +50,7 @@ for %%Z in (x86 arm x64) do (
     )
 
     copy "c:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Redist\MSVC\14.16.27012\onecore\debug_nonredist\%%Z\Microsoft.VC141.DebugCRT\concrt140d.dll" %TARGETFOLDER%\%%Z\
+	copy "c:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Redist\MSVC\14.24.28127\debug_nonredist\%%Z\Microsoft.VC142.DebugCRT\concrt140d.dll"  %TARGETFOLDER%\%%Z\
     copy wdp\AzureDeviceManagementClient.json %TARGETFOLDER%\%%Z\
 )
 

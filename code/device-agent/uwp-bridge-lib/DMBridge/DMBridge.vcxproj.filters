@@ -43,9 +43,6 @@
     <ClCompile Include="DMBridgeServer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\DMBridgeInterface\DMBridgeInterface_s.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Dps.cpp">
       <Filter>Source Files\API</Filter>
     </ClCompile>
@@ -54,6 +51,9 @@
     </ClCompile>
     <ClCompile Include="Tpm.cpp">
       <Filter>Source Files\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DMBridgeInterface\DMBridgeInterface_$(Platform)_s.c">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

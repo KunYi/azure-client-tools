@@ -31,7 +31,7 @@ namespace Microsoft { namespace Azure { namespace DeviceManagement { namespace D
             Json::Value& reportedObject,
             std::shared_ptr<DMCommon::ReportedErrorList> errorList)
         {
-            Operation::RunOperation(operationId, errorList,
+            DMCommon::Operation::RunOperation(operationId, errorList,
                 [&]()
             {
                 // Read back

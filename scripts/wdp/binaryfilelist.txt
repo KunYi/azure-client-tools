@@ -6,7 +6,7 @@ AzureDeviceManagementPluginHost.exe
 AzureDeviceManagementPluginHost.pdb
 CertificateManagementPlugin.dll
 CertificateManagementPlugin.pdb
-cpprest141d_2_10.dll
+cpprest142d_2_10.dll
 DeviceInfoPlugin.dll
 DeviceInfoPlugin.pdb
 DiagnosticLogsManagementPlugin.dll

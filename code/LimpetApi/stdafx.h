@@ -28,6 +28,8 @@
 #include <Wincrypt.h>
 #include <CertEnroll.h>
 #include <tbs.h>
+#define _SILENCE_EXPERIMENTAL_FILESYSTEM_DEPRECATION_WARNING
+
 #include "UrchinLib.h"
 #include "UrchinPlatform.h"
 #include "LimpetApi.h"

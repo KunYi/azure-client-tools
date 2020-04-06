@@ -58,12 +58,12 @@ if /I [%TARGETARCH%] == [x86] (
 )
 
 if /I [%TARGETCONFIG%] == [Debug] (
-      set CASABLANCALIBRARY=cpprest141d_2_10
-      set VCBINPATH="%VCToolsRedistDir%onecore\debug_nonredist\%TARGETARCH%\Microsoft.VC141.DebugCRT"
+      set CASABLANCALIBRARY=cpprest142d_2_10
+      set VCBINPATH="%VCToolsRedistDir%onecore\debug_nonredist\%TARGETARCH%\Microsoft.VC142.DebugCRT"
       set UCRTBINPATH="%WindowsSdkVerBinPath%%TARGETARCH%\ucrt"
 ) else (
-      set CASABLANCALIBRARY=cpprest141_2_10
-      set VCBINPATH="%VCToolsRedistDir%onecore\%TARGETARCH%\Microsoft.VC141.CRT"
+      set CASABLANCALIBRARY=cpprest142_2_10
+      set VCBINPATH="%VCToolsRedistDir%onecore\%TARGETARCH%\Microsoft.VC142.CRT"
 )
 
 echo.

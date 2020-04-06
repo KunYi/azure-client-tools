@@ -22,6 +22,7 @@
 #include <iostream>
 #include <istream>
 #include <sstream>
+#define _SILENCE_EXPERIMENTAL_FILESYSTEM_DEPRECATION_WARNING
 #include <experimental/filesystem>
 
 #include <windows.h>

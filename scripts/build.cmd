@@ -7,10 +7,10 @@ goto START
 
 :Usage
 echo Usage: build.cmd x86^|ARM^|x64 Debug^|Release [WinSDKVer]
-echo    WinSDKVer............... Default is 10.0.14393.0, specify another version if necessary
+echo    WinSDKVer............... Default is 10.0.17763.0, specify another version if necessary
 echo    [/?].................... Displays this usage string.
 echo    Example:
-echo        build.cmd x64 Debug 10.0.16299.0
+echo        build.cmd x64 Debug 10.0.17763.0
 endlocal
 exit /b 1
 
@@ -33,7 +33,7 @@ if [%2] == [] (
 )
 
 if [%3] == [] ( 
-    set TARGETPLATVER=10.0.16299.0
+    set TARGETPLATVER=10.0.17763.0
 ) else (
     set TARGETPLATVER=%3
 )

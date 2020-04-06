@@ -15,6 +15,7 @@
 #include <windows.h>
 #include <memory>
 #include <psapi.h>
+#define _SILENCE_EXPERIMENTAL_FILESYSTEM_DEPRECATION_WARNING
 
 #include "../../Utilities/Utils.h"
 namespace DMUtils = Microsoft::Azure::DeviceManagement::Utils;

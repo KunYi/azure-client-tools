@@ -14,9 +14,9 @@ namespace Microsoft { namespace Azure { namespace DeviceManagement { namespace C
         static std::shared_ptr<DMCommon::IMdmServer> GetInstance();
 
         std::string RunSyncML(const std::string& sid, const std::string& syncML);
-
     private:
-        friend std::_Ref_count_obj<MdmServer>;
+        friend std::_Ref_count_obj2<MdmServer>;
+        friend void std::_Construct_in_place<MdmServer>(MdmServer&);
 
         static std::shared_ptr<MdmServer> _this;
         static std::recursive_mutex _lock;

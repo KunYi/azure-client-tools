@@ -38,17 +38,17 @@ namespace Microsoft { namespace Azure { namespace DeviceManagement { namespace C
         };
 
         AzureDMClient();
-
     public:
         static std::shared_ptr<AzureDMClient> Create();
-
         ~AzureDMClient();
 
         void Run(
             std::shared_ptr<ServiceParameters> serviceParameters, HANDLE stopEvent);
 
+
     private:
-        friend std::_Ref_count_obj<AzureDMClient>;
+        friend std::_Ref_count_obj2<AzureDMClient>;
+        friend void std::_Construct_in_place<AzureDMClient>(AzureDMClient&);
 
 #ifdef USE_AZURE_DM_BRIDGE
 

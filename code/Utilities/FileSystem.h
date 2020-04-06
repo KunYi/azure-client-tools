@@ -6,6 +6,8 @@
 #include <string>
 #include <vector>
 #include <set>
+#define _SILENCE_EXPERIMENTAL_FILESYSTEM_DEPRECATION_WARNING
+
 #include <filesystem>
 
 using namespace std::experimental::filesystem;
